@@ -1,0 +1,408 @@
+.content-inner-all-Active {
+    width: 100%;
+    margin-left: 80px;
+    transition: all 0.3s;
+}
+
+.HeadContainer {
+    font-weight: bold;
+}
+
+.HeadContainerLanding {
+    font-weight: bold;
+
+}
+
+.left-custom-menu-adp-wrap ul .dropdown-toggle::after {
+    display: none;
+} 
+
+#collapseNotification::after {
+    display: none;
+} 
+
+.left-custom-menu-adp-wrap ul li .dropdown-menu {
+    background: #2b2a2a;
+    z-index: 99999999;
+}
+
+.content-inner-all { 
+    width: 100%;
+}
+
+#btnSidebar,
+#btnSidebarActive {
+    display: none;
+}
+
+.left-custom-menu-adp-wrap ul li:hover {
+
+    background: #3BAFDA;
+}
+
+tbody tr:hover {
+    cursor: default;
+}
+
+#edit {
+    width: 2%;
+    color: #3BAFDA;
+}
+
+#delete {
+    width: 2%;
+    color: red;
+}
+
+#editbtn {
+    color: #3BAFDA;
+}
+
+#deletebtn {
+    color: red;
+}
+
+.tbldiv {
+    max-height: 80vh; 
+} 
+
+#tbldivAP {
+    max-height: 80vh;
+    width: 2000px;  
+}
+
+#tbody2:hover {
+    background: blue;
+}
+
+.left-custom-menu-adp-wrap ul li {
+    z-index: 9999;
+}
+
+.theadSticky {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.fadeIn {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fadeOut {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.acdmtop {
+    margin-top: -5px;
+}
+
+.shadow-left-right-bottom {
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.divSearch {
+    height: 80vh;
+    overflow-y: auto;
+}
+
+.LoginMain {
+    height: 100vh;
+    width: 100%; 
+}
+
+#landing {
+    background-image: url("/public/img/Law.jpg");
+    max-height: 500px;
+    background-size: cover;
+}
+
+.lbody {
+    margin-top: 20vh;
+}
+#divSearch{
+    width: 100%; 
+    height: 20vh;
+    background: white;
+    top: -20px; 
+} 
+.divFooter{
+    margin-top: 20vh;
+}
+.sched{
+    width: 120px;
+    height: 125px;
+    background: red;
+    overflow-y: auto;
+}
+.aptBody{
+    display: flex;
+} 
+option {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.logo-wrap-pro{
+    width: 5%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+} 
+.profile-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #1877f2; /* Facebook's primary color */
+}
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*Calendar*/ 
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .content-inner-all-Active {
+        margin-left: 0px;
+        transition: all 0.3s;
+    }
+
+    #sidebarCollapse {
+        display: none;
+    }
+
+    #btnSidebar {
+        display: flex;
+        margin-left: 160px;
+        transition: all 0.3s;
+        transform: rotate(180deg);
+    }
+
+    #btnSidebarActive {
+        display: flex;
+        margin-left: -30px;
+        z-index: 999;
+    }
+
+    .content-inner-all {
+        margin-left: 0px;
+    }
+
+
+
+    #sidebar {
+        min-width: 100px;
+        background: #303030;
+        color: #fff;
+        position: fixed;
+        transition: all 0.3s;
+        z-index: 999;
+        height: 100%;
+    }
+
+    #sidebar.active {
+        display: none;
+    }
+
+    #sidebar.active .sidebar-header h3,
+    #sidebar.active .CTAs {
+        display: none;
+    }
+
+    #sidebar.active .sidebar-header strong {
+        display: flex;
+        justify-content: center;
+    }
+
+    #sidebar.active ul li .sidebar-right-icon {
+        display: none;
+    }
+
+    .bar-button-pro {
+        margin: 13px 0px;
+    }
+
+    #sidebar .sidebar-header {
+        padding: 20px;
+        background: #393939;
+    }
+
+    #sidebar .sidebar-header strong {
+        display: none;
+        font-size: 1.8em;
+    }
+
+    .sidebar-header {
+        text-align: center;
+    }
+
+    .sidebar-header h3 {
+        font-size: 20px;
+        color: #fff;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    /* .sidebar-header img {
+        border-radius: 50%;
+        width: 50%;
+    } */
+
+    #sidebar.active .profile-container{
+        display:none;
+    }
+    #sidebar.active .sidebar-header img {
+        display: none;
+    }
+
+    #sidebar.active .sidebar-header h3 {
+        display: none;
+    }
+
+    #sidebar.active .sidebar-header p {
+        display: none;
+    }
+
+    #sidebar ul li a .sidebar-right-icon {
+        float: right;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    .content-inner-all-Active {
+        margin-left: 0px;
+        transition: all 0.3s;
+    }
+
+    #sidebarCollapse {
+        transition: all 0.3s;
+        display: none;
+    }
+
+    #btnSidebar {
+        display: flex;
+        margin-left: 160px;
+        transition: all 0.3s;
+        transform: rotate(180deg);
+    }
+
+    #btnSidebarActive {
+        display: flex;
+        margin-left: -30px;
+        z-index: 999;
+    }
+
+    .content-inner-all {
+        margin-left: 0px;
+    }
+
+    table tbody td {
+        font-size: 14px;
+    }
+
+
+    #sidebar {
+        min-width: 100px;
+        background: #303030;
+        color: #fff;
+        position: fixed;
+        transition: all 0.3s;
+        z-index: 999;
+        height: 100%;
+    }
+
+    #sidebar.active {
+        display: none;
+    }
+
+    #sidebar.active .sidebar-header h3,
+    #sidebar.active .CTAs {
+        display: none;
+    }
+
+    #sidebar.active .sidebar-header strong {
+        display: flex;
+        justify-content: center;
+    }
+
+    #sidebar.active ul li .sidebar-right-icon {
+        display: none;
+    }
+
+    .bar-button-pro {
+        margin: 13px 0px;
+    }
+
+    #sidebar .sidebar-header {
+        padding: 20px;
+        background: #393939;
+    }
+
+    #sidebar .sidebar-header strong {
+        display: none;
+        font-size: 1.8em;
+    }
+
+    .sidebar-header {
+        text-align: center;
+    }
+
+    .sidebar-header h3 {
+        font-size: 20px;
+        color: #fff;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    /* .sidebar-header img {
+        border-radius: 50%;
+        width: 50%;
+    } */
+
+    #sidebar.active .profile-container{
+        display:none;
+    }
+
+    #sidebar.active .sidebar-header img {
+        display: none;
+    }
+
+    #sidebar.active .sidebar-header h3 {
+        display: none;
+    }
+
+    #sidebar.active .sidebar-header p {
+        display: none;
+    }
+
+    #sidebar ul li a .sidebar-right-icon {
+        float: right;
+    }
+    .aptBody{
+        display: block;
+    }
+    .logo-wrap-pro{
+        width: 15%;
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+    .hlogo{
+        display: none;
+    }
+}
